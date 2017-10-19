@@ -3,7 +3,7 @@
 class Application
 
   def call(env)
-    resp = Rack::Responses.new
+    resp = Rack::Response.new
 
     time = Time.new
 
